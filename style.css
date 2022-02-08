@@ -23,9 +23,13 @@ body {
     font-family: 'Concert One', cursive;
     color: #FFFFFF;
     font-weight: 400;
-    font-size: 100px
+    font-size: 70px
 }
-
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .flex-container{
     display: flex;
     flex-direction: row;
@@ -33,12 +37,15 @@ body {
     align-items: center;
     background: #483636;
     border: 2px solid #FFF2E7;
-    box-sizing: border-box;
+    box-sizing:content-box;
     border-radius: 20px;
     border: 3px solid #FFF2E7;
+    width: 1000px;
+    height: 430px;
+    
 }
 .linha-vertical{
-    height: 20px;
+    height: 430px;
     border-left: 3px solid #FFF2E7;
 }
 
@@ -49,42 +56,41 @@ body {
     align-items: center;
     text-align: center;
     
+    
 }
 
 .texto-cadastro{
     font-family: 'Concert One', cursive;
-    color: FFF2E7;
+    color: #FFF2E7;
     font-weight: 400;
-    font-size: 50px;
-    text-align: center;  
+    font-size: 30px;
+    text-align: center;
 }
 .paragrafo-cadastrar{
     display: flex;
     flex-direction:row;
-    justify-content:space-between;
+    justify-content:center;
     align-items:center;
     font-family: Concert One;
     font-style: normal;
     font-weight: normal;
-    font-size: 50px;
-    line-height: 39px;
-    text-align: center;
+    font-size: 30px;
+    text-align:center;
     color: #FFF2E7;
     width: 509px;
     height: 80px;
-    left: 356px;
-    top: 495px;
+    gap:10px;
+    
+    
 }
 .input-cadastrar{
     display: flex;
     background: rgba(255, 242, 231, 0.7);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
-    align-items:center;
-    width: 361px;
+    width: 250px;
     height: 50px;
-    left: 504px;
-    top: 350px;
+    
 }
 .paragrafo-botao{
     display: flex;
@@ -94,12 +100,9 @@ body {
     padding: 14px;
 }
 .botao-cadastrar{
-    width: 361px;
-    height: 50px;
-    left: 504px;
-    top: 350px;
-    border-radius: 15px;
-    
+    width: 250px;
+    height: 60px;
+    border-radius: 10px;
     background-color:#FFF2E7;
     font-family: Concert One;
     font-style: normal;
@@ -114,9 +117,44 @@ body {
 .div-mostrar{
     display: flex;
     flex-direction:column;
-    justify-content: center;
+    justify-content:space-around;
     align-items: center;
     text-align: center;
-    
+    gap: 40;    
+}
+.paragrafo-resultado{
+    display: flex;
+    flex-direction:row;
+    justify-content:start;
+    align-items:flex-start;
+    font-family: Concert One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    text-align:start;
+    color: #FFF2E7;
+    width: 509px;
+    height: 80px;
+    gap:10px;
+}
+.paragrafo-item{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    justify-items: center;
+    font-family: Concert One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 39px;
+    text-align:start;
+    color: #FFF2E7;
+}
+.texto-resultado{
+    font-family: 'Concert One', cursive;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
 }
 
