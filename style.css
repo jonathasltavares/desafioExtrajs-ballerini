@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Press+Start+2P&display=swap');
 
 * {
     margin: 0;
@@ -85,11 +85,14 @@ main{
 }
 .input-cadastrar{
     display: flex;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 15px;
     background: rgba(255, 242, 231, 0.7);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
     width: 250px;
     height: 50px;
+    padding-left: 10px;
     
 }
 .paragrafo-botao{
@@ -115,7 +118,7 @@ main{
     color: #2F2325;
 }
 .div-mostrar{
-    display: flex;
+    display:flex;
     flex-direction:column;
     justify-content:space-around;
     align-items:center;
@@ -123,7 +126,7 @@ main{
     height: 80px;
 }
 .texto-resultado{
-    display: flex;
+    display: inline;
     flex-direction: row;
     font-family: 'Concert One', cursive;
     color: #FFF2E7;
@@ -132,8 +135,6 @@ main{
     
 }
 .resnome, .residade, .resskills{
-    display: flex;
-    justify-content: flex-start;
     font-family: 'Concert One', cursive;
     color: #97D4D9;
     text-align: start;
@@ -144,6 +145,15 @@ main{
     color: #EFC764;
     text-align: start;
     font-size: 30px;
-    
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 10px;
+    color: #97D4D9;
+    padding: 20px;
 }
 
