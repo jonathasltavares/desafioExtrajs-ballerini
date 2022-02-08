@@ -118,43 +118,29 @@ main{
     display: flex;
     flex-direction:column;
     justify-content:space-around;
-    align-items: center;
-    text-align: center;
-    gap: 40;    
-}
-.paragrafo-resultado{
-    display: flex;
-    flex-direction:row;
-    justify-content:start;
-    align-items:flex-start;
-    font-family: Concert One;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 30px;
-    text-align:start;
-    color: #FFF2E7;
+    align-items:center;
     width: 509px;
     height: 80px;
-    gap:10px;
-}
-.paragrafo-item{
-    display: flex;
-    flex-direction:row;
-    justify-content: center;
-    justify-items: center;
-    font-family: Concert One;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 39px;
-    text-align:start;
-    color: #FFF2E7;
 }
 .texto-resultado{
     font-family: 'Concert One', cursive;
     color: #FFF2E7;
     font-weight: 400;
     font-size: 30px;
-    text-align: center;
+    text-align:center;
+}
+.res1, .res2, .res3{
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Concert One', cursive;
+    color: #97D4D9;
+    text-align: start;
+}
+.resUsuario1, .resUsuario2, .resUsuario3{
+    font-family: 'Concert One', cursive;
+    color: #EFC764;
+    text-align: start;
+    
+    
 }
 
