@@ -1,45 +1,33 @@
 botao = document.getElementById("botao_cadastrar")
 botao.addEventListener("click", cadastrar)
 
-resnome1 = document.getElementById("resnome1")
-resnome2 = document.getElementById("resnome2")
-resnome3 = document.getElementById("resnome3")
 
-residade1 = document.getElementById("residade1")
-residade2 = document.getElementById("residade2")
-residade3 = document.getElementById("residade3")
+var resnome = document.getElementById("resnome")
 
-resskills1 = document.getElementById("resskills1")
-resskills2 = document.getElementById("resskills2")
-resskills3 = document.getElementById("resskills3")
+var residade = document.getElementById("residade")
 
-resUsernome1 = document.getElementById("resUsuarionome1")
-resUsernome2 = document.getElementById("resUsuarionome2")
-resUsernome3 = document.getElementById("resUsuarionome3")
-
-resUseridade1 = document.getElementById("resUsuarioidade1")
-resUseridade2 = document.getElementById("resUsuarioidade2")
-resUseridade3 = document.getElementById("resUsuarioidade3")
-
-resUserskills1 = document.getElementById("resUsuarioskills1")
-resUserskills2 = document.getElementById("resUsuarioskills2")
-resUserskills3 = document.getElementById("resUsuarioskills3")
+var resskills = document.getElementById("resskills")
 
 
+resUsernome = document.getElementById("resUsuarionome")
 
+resUseridade = document.getElementById("resUsuarioidade")
+
+resUserskills = document.getElementById("resUsuarioskills")
+usuario_cadastrado = document.getElementById("usuario-cadastrado")
 function cadastrar(){
-    var i = 0
-    i++
-    if(i==1){
-        resnome1 = innerHTML = "Nome1"+i
-        
-    }else if(i==2){
-        resnome2 = innerHTML = "Nome2"+i
-        
-    }else if(i==3){
-        resnome3 = innerHTML = "Nome3"+i
-
-    }
-    
-
+nome = ""
+idade = ""
+skills = ""
+      nome = document.getElementById('input-nome').value;
+      idade = document.getElementById("input-idade").value
+      skills = document.getElementById("input-skills").value
+      usuario_cadastrado.innerHTML = "Usuario cadastrado"
+      resnome.innerHTML = "Nome:"
+      resUsernome.innerHTML = nome
+      residade.innerHTML = "Idade:"
+      resUseridade.innerHTML = idade
+      resskills.innerHTML = "Skills:"
+      resUserskills.innerHTML = skills
+   
 }

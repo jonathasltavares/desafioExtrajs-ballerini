@@ -123,24 +123,27 @@ main{
     height: 80px;
 }
 .texto-resultado{
+    display: flex;
+    flex-direction: row;
     font-family: 'Concert One', cursive;
     color: #FFF2E7;
     font-weight: 400;
     font-size: 30px;
-    text-align:center;
+    
 }
-.res1, .res2, .res3{
+.resnome, .residade, .resskills{
     display: flex;
     justify-content: flex-start;
     font-family: 'Concert One', cursive;
     color: #97D4D9;
     text-align: start;
+    font-size: 30px;
 }
-.resUsuario1, .resUsuario2, .resUsuario3{
+.resUsuarionome, .resUsuarioidade,.resUsuarioskills{
     font-family: 'Concert One', cursive;
     color: #EFC764;
     text-align: start;
-    
+    font-size: 30px;
     
 }
 
