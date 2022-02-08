@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background-color: #2F2325;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 30px;
+}
+
+.titulo-principal{
+    font-family: 'Concert One', cursive;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 100px
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: #483636;
+    border: 2px solid #FFF2E7;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border: 3px solid #FFF2E7;
+}
+.linha-vertical{
+    height: 20px;
+    border-left: 3px solid #FFF2E7;
+}
+
+.div-cadastrar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.texto-cadastro{
+    font-family: 'Concert One', cursive;
+    color: FFF2E7;
+    font-weight: 400;
+    font-size: 50px;
+    text-align: center;  
+}
+.paragrafo-cadastrar{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    font-family: Concert One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 39px;
+    text-align: center;
+    color: #FFF2E7;
+    width: 509px;
+    height: 80px;
+    left: 356px;
+    top: 495px;
+}
+.input-cadastrar{
+    display: flex;
+    background: rgba(255, 242, 231, 0.7);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    align-items:center;
+    width: 361px;
+    height: 50px;
+    left: 504px;
+    top: 350px;
+}
+.paragrafo-botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Concert One;
+    padding: 14px;
+}
+.botao-cadastrar{
+    width: 361px;
+    height: 50px;
+    left: 504px;
+    top: 350px;
+    border-radius: 15px;
+    
+    background-color:#FFF2E7;
+    font-family: Concert One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 39px;
+    display: center;
+    align-items: center;
+    text-align: center;
+    color: #2F2325;
+}
+.div-mostrar{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
